@@ -2190,8 +2190,8 @@ declare namespace google.maps {
         toJSON(): LatLngLiteral;
     }
 
-    export type LatLngLiteral = { lat: number; lng: number }
-    export type LatLngBoundsLiteral = { east: number; north: number; south: number; west: number }
+    export interface LatLngLiteral { lat: number; lng: number }
+    export interface LatLngBoundsLiteral { east: number; north: number; south: number; west: number }
 
     /**
      * A LatLngBounds instance represents a rectangle in geographical coordinates, including one
